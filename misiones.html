@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/misiones.css">
+    <title>MussicJDK</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(236, 108, 147), rgb(240, 178, 187));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(236, 108, 147);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgb(240, 178, 187);
+        }
+
+        .active {
+            background-color: #fcc0cd;
+        }
+
+        h1 {
+            background-color: #f7b6c9;
+            padding: 10px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(255, 160, 173);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+      
+    </style>
+</head>
+<body>
+       <h1>MussicJDK</h1>
+
+       <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="misiones.html">Misiones</a></li>
+            <li><a href="audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+        <h2>Preferencias de nuestros juegos </h2>
+    <div class="container">
+        <table>
+            <colgroup>
+            <col style="background-color: rgb(salmon);">
+            <col>
+            <col>
+            <col>
+            <col> 
+            </colgroup>
+            
+            <th>Albums</th>
+            <th>Canciones</th>
+            <th>Año</th>
+
+            <tr>
+                <td>Estrella</td>
+                <td>Media Luna, Polvora, Pasajero</td>
+                <td> 2023</td>
+            </tr>
+           
+            <tr>
+                <td>Microdosis</td>
+                <td>Memorias, Escalofrios, 2010</td>
+                <td> 2022</td>
+            </tr>
+            <tr>
+                <td>Pimer dia de clases</td>
+                <td>Primer dia de clases, tuyo, Te conoci perreando</td>
+                <td> 2021</td>
+            </tr>
+
+
+            
+        </table>
+
+    </div>
+
+
+    <footer class="footer"><p>Derechos Reservados &copy; 2024</p></footer>
+</body>
+</html>
